@@ -17,8 +17,6 @@ package com.yanzhenjie.album.app.album;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 
 import com.yanzhenjie.album.Action;
 import com.yanzhenjie.album.Album;
@@ -26,6 +24,9 @@ import com.yanzhenjie.album.R;
 import com.yanzhenjie.album.api.widget.Widget;
 import com.yanzhenjie.album.app.Contract;
 import com.yanzhenjie.album.mvp.BaseActivity;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 /**
  * Created by YanZhenjie on 2017/3/28.

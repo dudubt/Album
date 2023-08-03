@@ -17,13 +17,14 @@ package com.yanzhenjie.album.api;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.IntRange;
 
 import com.yanzhenjie.album.Album;
 import com.yanzhenjie.album.AlbumFile;
 import com.yanzhenjie.album.app.album.AlbumActivity;
 
 import java.util.ArrayList;
+
+import androidx.annotation.IntRange;
 
 /**
  * Created by YanZhenjie on 2017/8/16.

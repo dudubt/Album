@@ -21,8 +21,6 @@ import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.media.ExifInterface;
 import android.media.MediaMetadataRetriever;
-import android.support.annotation.Nullable;
-import android.support.annotation.WorkerThread;
 import android.text.TextUtils;
 import android.webkit.URLUtil;
 
@@ -34,6 +32,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.HashMap;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.WorkerThread;
 
 /**
  * Created by YanZhenjie on 2017/10/15.

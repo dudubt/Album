@@ -19,10 +19,6 @@ import android.content.Context;
 import android.content.res.ColorStateList;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.ColorInt;
-import android.support.annotation.IntDef;
-import android.support.annotation.StringRes;
-import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 
 import com.yanzhenjie.album.R;
@@ -30,6 +26,11 @@ import com.yanzhenjie.album.util.AlbumUtils;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+
+import androidx.annotation.ColorInt;
+import androidx.annotation.IntDef;
+import androidx.annotation.StringRes;
+import androidx.core.content.ContextCompat;
 
 /**
  * Created by YanZhenjie on 2017/8/16.

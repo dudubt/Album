@@ -19,10 +19,6 @@ import android.app.Activity;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -41,6 +37,11 @@ import com.yanzhenjie.album.util.AlbumUtils;
 import com.yanzhenjie.album.util.SystemBar;
 import com.yanzhenjie.album.widget.ColorProgressBar;
 import com.yanzhenjie.album.widget.divider.Api21ItemDivider;
+
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by YanZhenjie on 2018/4/7.

@@ -16,12 +16,12 @@
 package com.yanzhenjie.album.api;
 
 import android.content.Context;
-import android.support.annotation.IntRange;
 
-import com.yanzhenjie.album.Action;
 import com.yanzhenjie.album.ItemAction;
 
 import java.util.ArrayList;
+
+import androidx.annotation.IntRange;
 
 /**
  * Created by YanZhenjie on 2017/8/19.

@@ -18,8 +18,6 @@ package com.yanzhenjie.album.app.album;
 import android.app.Activity;
 import android.content.res.ColorStateList;
 import android.graphics.drawable.Drawable;
-import android.support.v7.widget.AppCompatButton;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 
@@ -28,6 +26,9 @@ import com.yanzhenjie.album.api.widget.Widget;
 import com.yanzhenjie.album.app.Contract;
 import com.yanzhenjie.album.util.AlbumUtils;
 import com.yanzhenjie.album.util.SystemBar;
+
+import androidx.appcompat.widget.AppCompatButton;
+import androidx.appcompat.widget.Toolbar;
 
 /**
  * Created by YanZhenjie on 2018/4/7.

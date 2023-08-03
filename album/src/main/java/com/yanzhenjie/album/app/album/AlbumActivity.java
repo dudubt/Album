@@ -19,9 +19,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.widget.PopupMenu;
 import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.View;
@@ -49,6 +46,10 @@ import com.yanzhenjie.mediascanner.MediaScanner;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.widget.PopupMenu;
 
 /**
  * <p>Responsible for controlling the album data and the overall logic.</p>
@@ -210,6 +211,7 @@ public class AlbumActivity extends BaseActivity implements
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {
             case CODE_ACTIVITY_NULL: {
                 if (resultCode == RESULT_OK) {

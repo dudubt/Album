@@ -16,10 +16,11 @@
 package com.yanzhenjie.album.api;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
 
 import com.yanzhenjie.album.Action;
 import com.yanzhenjie.album.api.widget.Widget;
+
+import androidx.annotation.Nullable;
 
 /**
  * <p>Album basic wrapper.</p>

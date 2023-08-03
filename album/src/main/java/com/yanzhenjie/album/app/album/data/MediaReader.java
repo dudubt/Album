@@ -19,7 +19,6 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.database.Cursor;
 import android.provider.MediaStore;
-import android.support.annotation.WorkerThread;
 
 import com.yanzhenjie.album.AlbumFile;
 import com.yanzhenjie.album.AlbumFolder;
@@ -30,6 +29,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
+
+import androidx.annotation.WorkerThread;
 
 /**
  * Created by YanZhenjie on 2017/8/15.

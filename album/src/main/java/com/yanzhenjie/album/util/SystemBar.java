@@ -18,13 +18,14 @@ package com.yanzhenjie.album.util;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+
+import androidx.annotation.RequiresApi;
 
 /**
  * Created by YanZhenjie on 2018/4/10.

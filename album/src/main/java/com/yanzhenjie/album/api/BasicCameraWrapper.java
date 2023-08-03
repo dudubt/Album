@@ -16,9 +16,10 @@
 package com.yanzhenjie.album.api;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
 
 import com.yanzhenjie.album.Action;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by YanZhenjie on 2017/8/18.

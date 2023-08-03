@@ -17,10 +17,11 @@ package com.yanzhenjie.album;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.IntDef;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+
+import androidx.annotation.IntDef;
 
 /**
  * Created by YanZhenjie on 2017/8/15.

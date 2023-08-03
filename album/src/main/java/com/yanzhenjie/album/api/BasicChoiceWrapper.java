@@ -16,9 +16,10 @@
 package com.yanzhenjie.album.api;
 
 import android.content.Context;
-import android.support.annotation.IntRange;
 
 import com.yanzhenjie.album.Filter;
+
+import androidx.annotation.IntRange;
 
 /**
  * Created by YanZhenjie on 2017/8/16.

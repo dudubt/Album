@@ -16,8 +16,6 @@
 package com.yanzhenjie.album.app.album.data;
 
 import android.media.MediaPlayer;
-import android.support.annotation.NonNull;
-import android.support.annotation.WorkerThread;
 import android.text.TextUtils;
 
 import com.yanzhenjie.album.AlbumFile;
@@ -25,6 +23,9 @@ import com.yanzhenjie.album.Filter;
 import com.yanzhenjie.album.util.AlbumUtils;
 
 import java.io.File;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.WorkerThread;
 
 /**
  * Created by YanZhenjie on 2017/10/18.

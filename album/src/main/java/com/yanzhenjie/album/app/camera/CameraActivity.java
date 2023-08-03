@@ -19,8 +19,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
 
 import com.yanzhenjie.album.Action;
@@ -31,6 +29,9 @@ import com.yanzhenjie.album.util.AlbumUtils;
 import com.yanzhenjie.album.util.SystemBar;
 
 import java.io.File;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 
 /**
  * Created by YanZhenjie on 2017/8/16.
@@ -158,6 +159,7 @@ public class CameraActivity extends BaseActivity {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {
             case CODE_ACTIVITY_TAKE_IMAGE:
             case CODE_ACTIVITY_TAKE_VIDEO: {

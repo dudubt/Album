@@ -17,10 +17,11 @@ package com.yanzhenjie.album.api;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.IntRange;
 
 import com.yanzhenjie.album.Album;
 import com.yanzhenjie.album.app.camera.CameraActivity;
+
+import androidx.annotation.IntRange;
 
 /**
  * <p>Camera wrapper.</p>

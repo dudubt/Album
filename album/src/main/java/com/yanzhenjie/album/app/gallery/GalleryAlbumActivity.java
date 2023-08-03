@@ -16,7 +16,6 @@
 package com.yanzhenjie.album.app.gallery;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 
 import com.yanzhenjie.album.Action;
 import com.yanzhenjie.album.Album;
@@ -29,6 +28,8 @@ import com.yanzhenjie.album.mvp.BaseActivity;
 import com.yanzhenjie.album.util.AlbumUtils;
 
 import java.util.ArrayList;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by YanZhenjie on 2017/8/16.

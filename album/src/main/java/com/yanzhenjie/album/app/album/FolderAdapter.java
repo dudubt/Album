@@ -17,8 +17,6 @@ package com.yanzhenjie.album.app.album;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
-import android.support.v7.widget.AppCompatRadioButton;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +30,9 @@ import com.yanzhenjie.album.R;
 import com.yanzhenjie.album.impl.OnItemClickListener;
 
 import java.util.List;
+
+import androidx.appcompat.widget.AppCompatRadioButton;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * <p>BottomSheet dialog adapter, show all folder.</p>

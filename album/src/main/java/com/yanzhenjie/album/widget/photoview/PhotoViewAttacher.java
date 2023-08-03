@@ -22,8 +22,6 @@ import android.graphics.Matrix;
 import android.graphics.Matrix.ScaleToFit;
 import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.Nullable;
-import android.support.v4.view.MotionEventCompat;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
@@ -40,6 +38,9 @@ import com.yanzhenjie.album.widget.photoview.gestures.VersionedGestureDetector;
 import com.yanzhenjie.album.widget.photoview.scrollerproxy.ScrollerProxy;
 
 import java.lang.ref.WeakReference;
+
+import androidx.annotation.Nullable;
+import androidx.core.view.MotionEventCompat;
 
 import static android.view.MotionEvent.ACTION_CANCEL;
 import static android.view.MotionEvent.ACTION_DOWN;
